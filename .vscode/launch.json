@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Frodo’s Code",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-o", "frodo_basics", "frodo_basics.cpp"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
